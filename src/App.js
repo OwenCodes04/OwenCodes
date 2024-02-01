@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Jobs from './components/Jobs.js';
+import Main from './components/Main.js';
 import Bar from './components/Bar.js';
 
 function App() {
   return (
-    <div className="flex flex-col items-center h-screen">
-      <Bar />
-      <Jobs />
+    <div>
+      <div className="flex w-full">
+<Main />
+      </div>
     </div>
   );
 }
