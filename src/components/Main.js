@@ -2,7 +2,7 @@ const Main = () => {
   return (
     <div className="flex">
       <div className="w-1/3 bg-blue-100 flex justify-center items-center">
-        <p>Left Side Content</p>
+        <img src="../assets/me.png" alt="Picture of me" />
       </div>
       <div className="w-2/3 bg-green-100 flex justify-center items-center">
         <div className="flex justify-center">
@@ -20,7 +20,7 @@ const Main = () => {
               <tbody>
                 {/* row 1 */}
                 <tr className="bg-base-200">
-                  <td classname="px-4 py-2">December 2023 - Present</td>
+                  <td className="px-4 py-2">December 2023 - Present</td>
                   <td className="px-4 py-2">Byte Cloud Services</td>
                   <td className="px-4 py-2">Full Stack Developer</td>
                   <td className="px-4 py-2">Blue</td>
